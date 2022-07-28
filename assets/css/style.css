@@ -1,0 +1,65 @@
+
+
+.logox{ 
+    background-color: transparent;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("https://allenhouseinstituteoftechnology.in/wp-content/uploads/2018/09/esto.png");
+    background-size: cover;
+    background-position: center;
+    background-size: 320px 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    
+}
+.banner {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background: linear-gradient(rgba(1, 1, 1, .8), rgba(1, 1, 1, .8)), url("https://allenhouse.ac.in/wp-content/uploads/2021/02/Allenhouse-Colleges-1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+}
+
+.banner section {
+    height: 80vh;
+    width: 50%;
+    position: relative;
+}
+
+.banner .left_section {
+    width: 100%;
+}
+
+.banner .left_section section {
+    background-color: transparent;
+    /*background: linear-gradient(260deg, lightgreen 44%, lightgreen 38%);*/
+    background-image: url(https://allenhouseinstituteoftechnology.in/wp-content/uploads/2018/09/esto.png);
+    background-size: cover;
+    background-position: center;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    /*transform: skew(20deg);*/
+    position: absolute;
+    left: -15%;
+    width: 100%;
+}
+
+.banner .right-section span {
+    /*transform: skew(-20deg);*/
+    position: absolute;
+    top: 21vh;
+    left: -20vw;
+    /*width:50%;*/
+    color: #fff;
+    letter-spacing: 0.08em;
+    /*z-index:11111111;*/
+}
+
+.banner .right_section span h4 {
+    line-height: 1.6em;
+    font-weight: 400 !important;
+}
+
+
+
